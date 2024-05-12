@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  
+}
+.header{
+  text-decoration: underline;
+}
+.logo{
+  font-size: 40pt;
+  text-decoration: underline;
+  /* background-color: #EFBC9B; */
+  margin-bottom: 1em;
+}
+
+.pic-container {
+  width: 380px; 
+  height: 370px; 
+  overflow: hidden; 
+}
+
+.selectionInfo{
+  /* background-color: #EFBC9B; */
+  display: flex;
+}
+.card {
+  /* background-color: #D6DAC8; */
+  border-radius: 1cm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  margin-left: 4.8em;
+}
+
+.card img {
+  align-self: flex-end
+}
+.pic {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 3em;
+}
+
+.menuPage{
+  /* background-color: red; */
+  width:25%;
+ 
+  
+}
+.menuContainer{
+  display: flex;
+  justify-content: space-between;
+ 
+}
